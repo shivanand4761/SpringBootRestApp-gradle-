@@ -8,7 +8,7 @@ public class MyController {
 	
 	@GetMapping(path = "/welcome")
 	public String welcome() {
-		return "Welcome to KK JavaTutorials..";
+		return "Spring boot app. This created using the gradle";
 	}
 
 }
